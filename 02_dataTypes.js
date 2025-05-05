@@ -9,11 +9,21 @@ let simran;
 console.log(typeof simran);
 console.log(typeof farhan);
 
-kaustubh = 523
-mymarks=(typeof "number");
+let kaustubh = 523;
+let mymarks=(typeof "number");
 console.log(mymarks);
 
-Amiwinninfcurrently = false;
+let Amiwinninfcurrently = false;
 console.log( typeof Amiwinninfcurrently, Amiwinninfcurrently);
 
 console.table([farhan,simran,kaustubh,Amiwinninfcurrently])
+
+
+
+function test(){
+
+    return {
+        a:1
+    };
+}
+console.log(typeof test());
