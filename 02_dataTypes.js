@@ -1,3 +1,9 @@
+// Use of strick
+"use strict"; // treat all js code as newer version
+// alert("jhello") 
+// // This function dosent work in node
+
+//data type
 let farhan = null; //Null is treated as object in js || 
 let simran;
 console.log(typeof simran);
